@@ -1,4 +1,4 @@
-package org.example;
+package org.hm1;
 
 public class HotDrink extends BottleOfWater {
     private int temperature;

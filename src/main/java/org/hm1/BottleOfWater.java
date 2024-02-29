@@ -1,4 +1,4 @@
-package org.example;
+package org.hm1;
 
 public class BottleOfWater extends Product {
     private double volume;

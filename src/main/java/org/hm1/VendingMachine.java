@@ -1,4 +1,4 @@
-package org.example;
+package org.hm1;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.hm1;
 
 abstract public class Product {
     private String name;
