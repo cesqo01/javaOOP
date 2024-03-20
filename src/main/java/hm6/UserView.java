@@ -1,2 +1,7 @@
-package hm6;public class UserView {
+package hm6;
+
+import java.util.List;
+
+public interface UserView<T extends User> {
+    void sendOnConsole(List<T> list);
 }

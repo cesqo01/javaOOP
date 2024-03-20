@@ -1,0 +1,20 @@
+1. **Класс Student метод compareTo** SRP принцип, так как этот метод отвечает только за сравнение
+ студентов по их идентификаторам.
+2. **Класс Student расширяет класс User** LSP принцип
+3. ** Конструктор и методы класса Student** SRP принцип, отвечают только за операции, связанные со студентами
+4. **Класс StudentGroup реализует интерфейс Iterable<Student>** принцип ISP, реализует интерфейс
+5. **Конструктор и методы класса StudentGroup** принцип SRP, отвечают только за операции, связанные с группой студентов
+6. **StudentGroupIterator реализует интерфейс Iterator<Student>** принцип SRP, Класс выполняет только одну задачу
+обход списка студентов в группе
+7. ** Класс StudentGroupService Метод getSortedStudentGroup ** принцип OCP, сортирует список студентов
+8. **Класс StudentGroupService Метод getSortedStudentGroupByFIO** LSP принцип, сортирует список студентов,
+но использует компаратор UserComparator
+9. **Класс Teacher и метод compareTo** LSP принцип
+10. **Класс TeacherService метод getSortedTeacherList** принцип OCP, метод сортирует список учителей по их д,р,
+ используя метод compareTo из класса Teacher
+11. **Класс TeacherService метод getSortedTeacherListByLastName** принцип OCP, этот метод сортирует список учителей по фамилии
+12. **Класс TeacherView метод printTeachers** SRP принцип, отвечает как за получение данных (список учителей),
+так и за их вывод на экран
+13. **методы setFirstName, setSecondName и setLastName в классе User** принцип SRP, класс отвечает как за хранение данных пользователя,
+ так и за их изменение
+14. **метод sendOnConsole в интерфейсе UserView** принцип ISP

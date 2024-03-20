@@ -1,2 +1,11 @@
-package hm6;public class TeacherView {
+package hm6;
+
+import java.util.List;
+
+public class TeacherView {
+    public void printTeachers(List<Teacher> teachers) {
+        for (Teacher teacher : teachers) {
+            System.out.println(teacher);
+        }
+    }
 }
